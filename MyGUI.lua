@@ -236,8 +236,7 @@ local Properties = {
 	Frame = {
 		BackgroundTransparency = 1,
 		BorderSizePixel = 0,
-		Size = UDim2.fromScale(1,1),
-		Position = UDim2.fromScale(1,0.5)
+		Size = UDim2.fromScale(1,1)
 	},
 	Label = {
 		BackgroundTransparency = 1,
