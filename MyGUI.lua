@@ -753,7 +753,7 @@ function Material.Load(Config)
 	local MainFrame = Objects.new("Round")
 	MainFrame.Name = "MainFrame"
 	MainFrame.Size = UDim2.fromOffset(0,SizeY)
-	MainFrame.Position = UDim2.fromScale(1,1) + UDim2.fromOffset(-105,-70)
+	MainFrame.Position = UDim2.fromOffset(5,45)
 	MainFrame.ImageColor3 = Theme.MainFrame
 	MainFrame.Parent = NewInstance
 
