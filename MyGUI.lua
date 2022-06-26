@@ -810,7 +810,7 @@ function Material.Load(Config)
 	end)
 
 	local MinimiseButton = Objects.new("SmoothButton")
-	MinimiseButton.Size = UDim2.fromOffset(40,40)
+	MinimiseButton.Size = UDim2.fromOffset(140,140)
 	MinimiseButton.Position = UDim2.fromScale(1,0) + UDim2.fromOffset(-25,5)
 	MinimiseButton.ImageColor3 = Theme.Minimise
 	MinimiseButton.ImageTransparency = 1
